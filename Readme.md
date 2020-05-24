@@ -2,9 +2,9 @@
 
 All vs. All data.  
  Alignment done by [HH-suite3 v3.1](https://github.com/soedinglab/hh-suite7)  
-**IMPORTANT** Too save time and space alignment with probability below 10% and less then 30 residues long are not shown
+**IMPORTANT** Too save time and space, alignments with probability below 10% and less then 30 residues long are not shown
 
-Loads huge heatmap 2Kx2K and some details histograms contains 100K points Please be pateins loads can take up too 2 minutes.  
+Loads huge heatmap (2Kx2K) and some details. Histograms contains 100K points. Please be patient, loads can take up to 2 minutes.  
 
 ## Required packages 
 `numpy => 1.18.4`  
@@ -22,4 +22,4 @@ Loads huge heatmap 2Kx2K and some details histograms contains 100K points Please
 - Move to server
 - Add links to ECOD 
 - Load heatmap in WebGL (upload in low res and increase res with zoom in)
-- Precompile details figures (may save time on update)
+- Pre-compile details, figures (may save time on update)
