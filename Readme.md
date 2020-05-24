@@ -2,7 +2,7 @@
 
 All vs. All data.  
  Alignment done by [HH-suite3 v3.1](https://github.com/soedinglab/hh-suite7)  
-**IMPORTANT** Too save time and space alignment with probability below 10% and less then 30 residues long are not show
+**IMPORTANT** Too save time and space alignment with probability below 10% and less then 30 residues long are not shown
 
 Loads huge heatmap 2Kx2K and some details histograms contains 100K points Please be pateins loads can take up too 2 minutes.  
 
@@ -12,7 +12,7 @@ Loads huge heatmap 2Kx2K and some details histograms contains 100K points Please
 `plotly => 4.7.1`   
 `dash => 1.12.0` 
 
-## generate data for plotting 
+## Steps to generate data for plotting 
 - make annotation `make_heatmap_anotation.py`  
 - make heatmap plot `make_heatmap.py`  
 - run app `main_app.py`  
