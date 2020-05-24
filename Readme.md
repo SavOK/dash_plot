@@ -1,8 +1,8 @@
 # Sequence alignment of representative from X group
 
-All vs. All data.  
- Alignment done by [HH-suite3 v3.1](https://github.com/soedinglab/hh-suite7)  
-**IMPORTANT** Too save time and space, alignments with probability below 10% and less then 30 residues long are not shown
+All vs. All data. Alignment done by [HH-suite3 v3.1](https://github.com/soedinglab/hh-suite7)  
+
+**IMPORTANT** To save time and space, alignments with probability below 10% and less then 30 residues long are not shown
 
 Loads huge heatmap (2Kx2K) and some details. Histograms contains 100K points. Please be patient, loads can take up to 2 minutes.  
 
