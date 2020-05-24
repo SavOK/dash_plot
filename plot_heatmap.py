@@ -11,6 +11,7 @@ _MAIN_DIR = Path("C:/Users/Saveliy/Projects/HHAlign/dash_plot")
 _DATA_LOC = _MAIN_DIR / "data_plots"
 
 _PROB_MATRIX = _DATA_LOC / "probability_matrix.txt"
+_PLOT_LOC = _MAIN_LOC / "saved_plots"
 
 
 def read_x_names(inFile=_DATA_LOC / "x_group_names.json"):
@@ -22,7 +23,7 @@ def _nice_lables(grId: int, cut: int = 20, name_dict: dict = None):
     if name_dict is None:
         name_dict = read_x_names()
 
-    name = name_dict[str(griI)]
+    name = name_dict[str(grId)]
     if len(name) > cut:
         return f"{name[:cut-3]}..."
     else:

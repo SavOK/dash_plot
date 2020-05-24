@@ -44,6 +44,7 @@ def read_ecod_description_df(
     return pd.read_csv(inFile, sep="|")
 
 
+print("Reading main data")
 names_dict = read_x_names()
 data_df = read_matrix_file()
 group_df = read_x_groupdf()
@@ -149,7 +150,9 @@ def heatmap_annotation(
     return np.dstack((cs_part_1, cs_part_2, cs_part_3))
 
 
+print("Creating annotation")
 cs_data = heatmap_annotation(data_df, group_df)
 
+print("Saving annotation")
 with open(_DATA_LOC / "heatmap_annotation.pckl", "wb") as oF:
     pickle.dump(cs_data, oF)
